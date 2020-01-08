@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Dimension V2",
-    author: "Hunter Chang",
-    description: "A Gatsby.js V2 Starter based on Dimension by HTML5 UP"
+    title: "Clare Politano - In Service to Regeneration",
+    author: "Clare Politano",
+    description: "Chaneling resources to heal our communities and our planet"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
