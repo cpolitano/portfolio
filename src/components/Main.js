@@ -51,7 +51,7 @@ class Main extends React.Component {
             I'm now making a home in San Francisco and stewarding <a href="https://www.terran.io/" target="_blank">Terran Collective</a>, a
              community of care and practice building systems and tools for a regenerative future.
              I accept contracts in software engineering, communications, and corporate strategy.
-             Please reach out to collaborate with me. We're in this together.
+             Please reach out to collaborate with me. We're in the transition together.
           </p>
           {close}
         </article>
@@ -67,29 +67,42 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
-          <p>
-            <ul>
-              <li>Software Engineering</li>
-              <li>Regenerative Business Strategy</li>
-              <li>Permaculture Design</li>
-            </ul>
+          <p>My skills are wide-ranging from my years working in nonprofits, tech companies, and
+          sustainable and regenerative businesses, with an emphasis on software engineering,
+          communications, business strategy, and permaculture. I write production-level code for
+          enterprise software. I work across the stack, but I am particularly passionate about
+          creating beautiful, usable interfaces that are a joy for people to interact with.
           </p>
-          {close}
-        </article>
-
-        <article
-          id="about"
-          className={`${this.props.article === 'about' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
-          style={{ display: 'none' }}
-        >
-          <h2 className="major">About</h2>
-          <span className="image main">
-            <img src={pic03} alt="" />
-          </span>
+          <p>It's important to me to apply my skills to projects that are in some way building
+          towards the more beautiful world our hearts know is possible: a regenerative culture
+          that heals more than it extracts, caring for the greatest good of all beings. I'm excited
+          about creating tech that advances this future, as well as helping companies transition
+          to regenerative practices. And I'm always on the lookout for opportunities to step away
+          from the screen and engage directly with the Earth.
+          </p>
           <p>
-            Clare is an eco-social entrepreneur and movement artist whose mission is channeling resources to healing. She has worked in architecture, refugee resettlement, yoga, nutrition, and regenerative agriculture contributing her skills in design, communications, and software engineering. She is creating a future where humans remember our destiny as responsible stewards of the Earth, living in reciprocal partnership with the land and the more-than-human community.
+            <h3>Software Engineering</h3>
+            <ul>
+              <li>Data Stores: MySQL, PostgreSQL, PostGIS, NoSQL, DynamoDB, Elasticsearch</li>
+              <li>Backend: Node.js, Go, Python, AWS services, Google Cloud Platform</li>
+              <li>Frontend: JavaScript (ES6+), React, Redux, Webpack, GraphQL, Gatsby.js, Mapbox, Google Maps, D3, CSS Frameworks, HTML</li>
+              <li>Product Management, Sprint Planning, Code Review, Dev Team Lead</li>
+            </ul>
+            <h3>Regenerative Business Strategy</h3>
+            <ul>
+              <li>Mission, Vision, and Values Development</li>
+              <li>Company Culture Building</li>
+              <li>Strategy - Positioning, Fundraising, Partnerships</li>
+              <li>Communications, Marketing, Copywriting</li>
+              <li>Online Community Development and Membership Programs</li>
+              <li>B Corp Consulting</li>
+            </ul>
+            <h3>Permaculture Design</h3>
+            <ul>
+              <li>Landscape Assessment and Visioning</li>
+              <li>Garden Design and Implementation</li>
+              <li>Permaculture for Business</li>
+            </ul>
           </p>
           {close}
         </article>
@@ -102,6 +115,9 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
+          <span className="image main">
+            <img src={pic03} alt="" />
+          </span>
           <p>
             To get in touch, please drop me a line at clare [at] terran [dot] io.
           </p>
