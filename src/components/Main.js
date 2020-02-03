@@ -88,6 +88,13 @@ class Main extends React.Component {
               <li>Frontend: JavaScript (ES6+), React, Redux, Webpack, GraphQL, Gatsby.js, Mapbox, Google Maps, D3, CSS Frameworks, HTML</li>
               <li>Product Management, Sprint Planning, Code Review, Dev Team Lead</li>
             </ul>
+            <h3>Software Examples</h3>
+            <ul>
+              <li>Terran Collective - <a href="https://www.terran.io/" target="_blank" rel="noopener noreferrer">Community site</a> - I developed the frontend (React, Gatsby.js)</li>
+              <li>Regen Network - <a href="https://app.regen.network/" target="_blank" rel="noopener noreferrer">Farmer Data mapping app</a> - simple geospatial app to collect farming practices from regenerative farmers. I developed the frontend (React, GraphQL) and contributed to the backend (PostGIS)</li>
+              <li>Social Tables - <a href="https://www.socialtables.com/product/check-in/" target="_blank" rel="noopener noreferrer">Event Check In app</a> - I led this team and developed both the frontend (React/Redux) and backend (Node.js, RethinkDB)</li>
+              <li>The Mushroom Farm - <a href="https://www.themushroom.farm/" target="_blank" rel="noopener noreferrer">Membership site</a> - built with Squarespace</li>
+            </ul>
             <h3>Regenerative Business Strategy</h3>
             <ul>
               <li>Mission, Vision, and Values Development</li>
